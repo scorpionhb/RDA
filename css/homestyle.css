@@ -1,0 +1,248 @@
+body {
+    background-image: url('grasss.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+section {
+    padding: 10px;
+    margin: 10px;
+}
+article, li {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+li {
+    list-style-type: none;
+    font-size: 110%;
+}
+#wrapper { 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.buttons {
+    background: white;
+    border: 1px solid black;
+    width: 24%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 175%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    display:block;
+    text-decoration: none;
+    font-family: Helvetica, Arial;
+    color: black;
+}
+#first_button {
+    background: #538931;
+    border: 2px solid black;
+}
+#first_button a {
+    color: white;
+}
+.buttons:hover {
+    background: #538931;
+    border: 0;
+}
+.buttons a:hover {
+    color: white;
+}
+.active {
+    transition: background-color 0.5s ease;
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    margin: 0px;
+    overflow: auto;
+}
+#welcome {
+    margin-top: 2%;
+    text-align: left;
+}
+.bigger {
+    font-size: 150%;
+    color: #538931;
+}
+article {
+    text-align: left;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#NewsPosts {
+    width: 60%;
+    overflow: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 500px;
+    padding: 0px;
+    float: left;
+    font-family: Tahoma;
+}
+.Post {
+    padding: 0px;
+    margin: 10px;
+    overflow: auto;
+}
+.PostTitle {
+    font-size: 175%;
+    font-weight: bold;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.PostDate {
+    padding: 0px;
+    margin-top: 0px;
+    font-style: italic;
+}
+.PostContent {
+    padding-left: 0px;
+}
+#UpcomingPosts {
+    width: 30%;
+    overflow: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 500px;
+    padding: 0px;
+    float: right;
+    font-family: Tahoma;
+}
+h1 {
+    text-align: center;
+    }
+footer {
+    margin: 20px;
+    padding: 0px;
+    margin-top: 2%;
+    clear: both;
+    height: 140px;
+}
+#catherine {
+    text-align: left;
+    float: left;
+    margin-right:80px;
+    font-size: 95%;
+}
+#barbara {
+    text-align: left;
+    float: right;
+    margin-right:80px;
+    font-size: 95%;
+}
+#catherine:hover {
+    background-color: white;
+    transition: background-color 0.5s ease;
+    color: black;
+    opacity: 0.8;
+    }
+#barbara:hover {
+    background-color: white;
+    transition: background-color 0.5s ease;
+    color: black;
+    opacity: 0.8;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+.buttons {
+    font-size: 175%;
+    display: inline-block;
+    }
+li {
+    margin-right: 0%;
+    }
+#welcome {
+     margin-top: 5%;
+    }
+.news {
+    float: none;
+    clear: both;
+    width: 90%;
+    margin: auto;
+	height: 100px;
+    }
+.upcoming {
+    float: none;
+    clear: both;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    }
+footer {
+    text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+body {
+    padding: 5px;
+    }
+#welcome {
+    margin-top: 2%;
+    }
+.buttons {
+    font-size: 130%
+    }
+.news {
+    width: 85%;
+    }
+.upcoming {
+    width: 85%;
+    }
+#NewsPosts {
+    width: 95%;
+    height: 200px;
+    float: left;
+    overflow: auto;
+    }
+#UpcomingPosts {
+    width: 95%;
+    height: 200px;
+    float: left;
+    overflow: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+header img {
+    max-height: 130%;
+    max-width: 100%;
+    }
+.buttons {
+    margin-top: 2%;
+    width: 100%;
+    display: block;
+    font-size: 130%;
+    text-align: center;
+    }
+#catherine {
+    float: none;
+    }
+#barbara {
+    float: none;
+    }
+}

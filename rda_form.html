@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RDA Aberdeen: Volunteer Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/formstyle.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <section id="wrapper">
+			<header>
+			<figure>
+				<img src = "RDA_Aberdeen_Strap_Logo_2.jpg" alt="" />
+			</figure>
+			</header>
+			<nav>
+				<ul>
+					<li class="buttons" id="first_button"><a href="rda_home.html">HOME</a></li>
+					<li class="buttons" id="second_button"><a href="rda_gallery1.html">PHOTOS</a></li>
+					<li class="buttons" id="third_button"><a href="rda_volunteer.html">VOLUNTEER!</a></li>
+					<li class="buttons" id="fourth_button"><a href="rda_about.html">ABOUT</a></li>
+				</ul>
+			</nav>
+			<section id="content">
+				<form>
+					<fieldset>
+						<legend>Please fill in your details:</legend>
+						<table>
+							<tr>
+								<td><label>First Name:</label></td>
+								<td><input type="text" name="firstName" value=""></td>
+							</tr>
+							<tr>
+								<td><label>Last Name:</label></td>
+								<td><input type="text" name="lastName" value=""></td>
+							</tr>
+							<tr>
+								<td><label>Address:</label></td>
+								<td><input type="text" name="address" value=""></td>
+							</tr>
+							<tr>
+								<td><label>Location:</label></td>
+								<td>
+									<select name="location">
+									<option value="default">Select...</option>
+									<option value="glasgow">Glasgow</option>
+									<option value="edinburgh">Edinburgh</option>
+									<option value="aberdeen">Aberdeen</option>
+									<option value="dundee">Dundee</option>
+									<option value="stirling">Stirling</option>
+									<option value="paisley">Paisley</option>								
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td><label>Gender:</label></td>
+								<td><input type="radio" name="gender" value="male" class="one"> Male<br>
+								<input type="radio" name="gender" value="female" class="two"> Female</td>
+							</tr>
+							<tr>
+								<td><label>Age:</label></td>
+								<td><input type="text" name="age" value=""></td>
+							</tr>
+							<tr>
+								<td><label>Phone:</label></td>
+								<td><input type="text" name="phone" value=""></td>
+							</tr>
+							<tr>
+								<td><label>E-mail:</label></td>
+								<td><input type="text" name="email" value=""></td>
+							</tr>
+							<tr>
+								<td><label>Preffered form of Contact:</label></td>
+								<td><input type="checkbox" name="contact" value="phone"> Phone<br>
+								<input type="checkbox" name="contact" value="email"> E-mail</td>
+							</tr>
+							<tr>
+								<td><input type="submit" value="Submit" /></td>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</section>
+			<footer><article>For more information about supporting Aberdeen RDA or becoming one of our valued volunteers, please contact:</article>
+				<ul id="catherine">
+					<li><strong><em>Catherine Stott</em></strong></li>
+					<li>(Aberdeen RDA Chairman)</li>
+					<li>Tel: 01224 733881</li>
+					<li>e-mail: catherine.stott@virgin.net</li>
+				</ul>
+				<ul id="barbara">
+					<li><strong><em>Barbara Gibbons</em></strong></li>
+					<li>(Aberdeen RDA Secretary)</li> 
+					<li>Tel: 0845 241 1332</li> 
+					<li>email: beeba4349@aol.com</li>
+				</ul>
+			</footer>
+		</section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/formscript_boilerplate.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

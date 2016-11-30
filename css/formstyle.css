@@ -1,0 +1,182 @@
+body {
+    background-image: url('grasss.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+section {
+    padding: 10px;
+    margin: 10px;
+}
+article, li {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+li {
+    list-style-type: none;
+    font-size: 110%;
+}
+#wrapper { 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.buttons {
+    background: white;
+    border: 1px solid black;
+    width: 24%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 175%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    display:block;
+    text-decoration: none;
+    font-family: Helvetica, Arial;
+    color: black;
+}
+#third_button {
+    background: #538931;
+    border: 2px solid black;
+}
+#third_button a {
+    color: white;
+}
+.buttons:hover {
+    background: #538931;
+    border: 0;
+}
+.buttons a:hover {
+    color: white;
+}
+.active {
+    transition: background-color 0.5s ease;
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#content {
+    margin: 0px;
+    overflow: auto;
+}
+table td {
+    height: 30px;
+}
+table input[type=text] {
+    width: 300px;
+}
+table text {
+    width: 1000px;
+}
+article {
+    text-align: left;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    margin: 20px;
+    padding: 0px;
+    margin-top: 2%;
+    clear: both;
+    height: 140px;
+}
+#catherine {
+    text-align: left;
+    float: left;
+    margin-right:80px;
+    font-size: 95%;
+}
+#barbara {
+    text-align: left;
+    float: right;
+    margin-right:80px;
+    font-size: 95%;
+}
+#catherine:hover {
+    background-color: white;
+    transition: background-color 0.5s ease;
+    color: black;
+    opacity: 0.8;
+    }
+#barbara:hover {
+    background-color: white;
+    transition: background-color 0.5s ease;
+    color: black;
+    opacity: 0.8;
+}
+
+
+	
+	
+	
+@media screen and (max-width: 1200px) {
+.buttons {
+    font-size: 175%;
+    display: inline-block;
+    }
+li {
+    margin-right: 0%;
+    }
+footer {
+    text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+body {
+    padding: 5px;
+    }
+form {
+	margin-top: 0%;
+    }
+.buttons {
+    font-size: 130%
+    }
+table input[type=text] {
+    width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+header img {
+    max-height: 130%;
+    max-width: 100%;
+    }
+.buttons {
+    margin-top: 2%;
+    width: 100%;
+    display: block;
+    font-size: 130%;
+    text-align: center;
+    }
+#catherine {
+    float: none;
+    }
+#barbara {
+    float: none;
+    }
+#form {
+    text-align: center;
+    }
+}
+
